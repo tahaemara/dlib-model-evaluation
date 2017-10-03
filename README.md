@@ -1,6 +1,6 @@
 # Dlib's face recognition model accuracy test
 
-Using information about LFW protocol from here http://vis-www.cs.umass.edu/lfw/README.txt
+Using information about LFW evaluation protocol from here http://vis-www.cs.umass.edu/lfw/README.txt
 
 I developed an application built on [this example](https://github.com/davisking/dlib/blob/master/examples/dnn_face_recognition_ex.cpp) and saved the result (face_descriptor vector) for every image in LFW not aligned dataset, to csv file -I uploaded it (data.csv)-. Then I used the code in this repository to test dlib’s face recognition model. 
 
